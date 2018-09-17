@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ixiptli</title>
+<link rel="shortcut icon" href="pages/favicon.ico"> 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font.css">
+<link rel="stylesheet" type="text/css" href="assets/css/li-scroller.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<div class="container">
+  <header id="header">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_bottom">
+          <div class="logo_area"><a href="index.html" class="logo"><img src="images/logo2.png" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section id="navArea">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav main_nav">
+          <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Usuario</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="pages/profilePropio.html">Perfil</a></li>
+              <li><a href="index.html">Cerrar Sesión</a></li>
+            </ul>
+          </li>
+          
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categorías</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Recientes</a></li>
+              <li><a href="#">Populares</a></li>
+              <li><a href="#">Mas visitas</a></li>
+              <li><a href="#">Mas compartidos</a></li>
+              <li><a href="#">Favoritos</a></li>
+              <li><a href="#">Canal Favorito</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  
+  <section id="sliderSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="slick_slider">
+          <div class="single_iteam"> <a href="pages/404.html"> <img src="images/Unicorn.jpg"  width="660px" height="502"alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="pages/video.html">Macaroon lollipop macaroon cheesecake</a></h2>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="pages/video.html"> <img src="images/Unicorn2.gif"  width="660px" height="502"alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="pages/video.html">Muffin muffin oat cake biscuit brownie</a></h2>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="pages/video.html"> <img src="images/Unicorn3.jpg"  width="660px" height="502"alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="pages/video.html">Carrot cake pastry fruitcake.</a></h2>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="pages/video.html"> <img src="images/Unicorn4.jpg"  width="660px" height="502"alt=""></a> <!--esto tiene que ser solo imagen hay que arreglarlo-->
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="pages/video.html">Powder I love chocolate bar</a></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+      
+      <div class="single_sidebar wow fadeInDown">
+            <h2><span>Busqueda</span></h2>
+            <div align="center">
+            <form class="form-basic" method="post" action="#">
+  				<input type="search" name="busueda">
+  				<button type="submit" class="btn-theme">Buscar</button>
+			</form>
+			</div>
+            <br class="divider">
+            <div align="center">
+            <label>
+               <input type="date" name="fecha" min="2000-01-01"><span> a </span><input type="date" name="fecha" max="2018-03-06">
+            </label>
+            <button type="submit" class="btn-theme">Buscar</button>
+            </div>
+            
+            <div>
+            <select class="catgArchive">
+              <option class="specialColor">Por etiqueta</option>
+              <option class="specialColor">Diversion</option>
+              <option class="specialColor">Deportes</option>
+              <option class="specialColor">Musica</option>
+              <option class="specialColor">Ropa</option>
+              <option class="specialColor">Varios</option>
+            </select>
+            </div>
+          </div>
+          
+        <div class="latest_post">
+          <h2><span>Ultimos Videos</span></h2>
+          <div class="latest_post_container">
+            <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+            <ul class="latest_postnav">
+              <li>
+                <div class="media"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                  <div class="media-body"> <a href="pages/video.html" class="catg_title">  I love tart soufflé.</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                  <div class="media-body"> <a href="pages/video.html" class="catg_title">  I love tart soufflé.</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                  <div class="media-body"> <a href="pages/video.html" class="catg_title">  I love tart soufflé.</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                  <div class="media-body"> <a href="pages/video.html" class="catg_title">  I love tart soufflé.</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                  <div class="media-body"> <a href="pages/video.html" class="catg_title">  I love tart soufflé.</a> </div>
+                </div>
+              </li>
+            </ul>
+            <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contentSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="left_content">
+          <div class="single_post_content">
+            <h2><span>Lo mas popular</span></h2>
+            <div class="single_post_content_left">
+              <ul class="business_catgnav  wow fadeInDown">
+                <li>
+                  <figure class="bsbig_fig"> <a href="pages/video.html" class="featured_img"><img alt="" src="images/pfudor.gif"><span class="overlay"></span> </a>
+                    <figcaption> <a href="pages/video.html">Pie I love cake</a> </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <div class="single_post_content_right">
+              <ul class="spost_nav">
+                <li>
+                  <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                    <div class="media-body"> <a href="pages/video.html" class="catg_title"> Gummi bears jujubes</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                    <div class="media-body"> <a href="pages/video.html" class="catg_title"> Gummi bears jujubes</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                    <div class="media-body"> <a href="pages/video.html" class="catg_title"> Gummi bears jujubes</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                    <div class="media-body"> <a href="pages/video.html" class="catg_title"> Gummi bears jujubes</a> </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fashion_technology_area">
+            <div class="fashion">
+              <div class="single_post_content">
+                <h2><span>Los mas comprado</span></h2>
+                <ul class="business_catgnav wow fadeInDown">
+                  <li>
+                    <figure class="bsbig_fig"> <a href="pages/video.html" class="featured_img"><img alt="" src="images/pfudor4.gif"><span class="overlay"></span> </a>
+                      <figcaption> <a href="pages/video.html">Chocolate cake tart gummi bears</a> </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                      <div class="media-body"> <a href="pages/video.html" class="catg_title"> Gummies powder caramels </a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                      <div class="media-body"> <a href="pages/video.html" class="catg_title"> Gummies powder caramels </a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                      <div class="media-body"> <a href="pages/video.html" class="catg_title"> Gummies powder caramels </a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                      <div class="media-body"> <a href="pages/video.html" class="catg_title"> Gummies powder caramels </a> </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="technology">
+              <div class="single_post_content">
+                <h2><span>Tus Compras</span></h2>
+                <ul class="business_catgnav">
+                  <li>
+                    <figure class="bsbig_fig wow fadeInDown"> <a href="pages/video.html" class="featured_img"><img alt="" src="images/pfudor3.gif"><span class="overlay"></span> </a>
+                      <figcaption> <a href="pages/video.html">Brownie fruitcake gummi bears</a> </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                      <div class="media-body"> <a href="pages/video.html" class="catg_title"> Macaroon jelly-o muffin.</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                      <div class="media-body"> <a href="pages/video.html" class="catg_title"> Macaroon jelly-o muffin.</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                      <div class="media-body"> <a href="pages/video.html" class="catg_title"> Macaroon jelly-o muffin.</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/video.html" class="media-left"> <img alt="" src="images/camera.png"> </a>
+                      <div class="media-body"> <a href="pages/video.html" class="catg_title"> Macaroon jelly-o muffin.</a> </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <aside class="right_content">
+          <div class="single_sidebar">
+            <h2><span>Usuarios populares</span></h2>
+            <ul class="spost_nav">
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/user.png"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Cupcake muffin cotton</a> </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="footer_bottom">
+      <p class="copyright">Copyright &copy; 2018 <a href="index.html">BlackUnicorn</a></p>
+      <p class="developer">Proyecto Base de Datos Multimedia</p>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/wow.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/slick.min.js"></script> 
+<script src="assets/js/jquery.li-scroller.1.0.js"></script> 
+<script src="assets/js/jquery.newsTicker.min.js"></script> 
+<script src="assets/js/jquery.fancybox.pack.js"></script> 
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

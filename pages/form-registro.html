@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Registro</title>
+
+	<link rel="stylesheet" href="C:\Users\Home\Documents\Facultad\5to Semestre\BDM\3raOportunidad\PROYECTO BDM 1\assets\css\demo.css">
+	<link rel="stylesheet" href="C:\Users\Home\Documents\Facultad\5to Semestre\BDM\3raOportunidad\PROYECTO BDM 1\assets\css\form-basic.css">
+	<script src="C:\Users\Home\Documents\Facultad\5to Semestre\BDM\3raOportunidad\PROYECTO BDM 1\assets\js\validaciones.js"></script> 
+
+</head>
+
+
+	<header>
+		<img src="C:\Users\usuario\Desktop\proyectoBDM\images\" alt="">
+    </header>
+
+
+    <div class="main-content">
+
+
+        <form class="form-basic" name="registration" method="post" action="C:\Users\Home\Documents\Facultad\5to Semestre\BDM\3raOportunidad\PROYECTO BDM 1\pages\form-login.html" onsubmit="return validarRegistro()">
+
+            <div class="form-title-row">
+                <h1>Registro</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Nombre de usuario</span>
+                    <input type="text" name="name">
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Contraseña</span>
+                    <input type="password" name="pass">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email">
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Telefono</span>
+                    <input type="tel" name="telefono">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                <span>Dirección</span></label>
+              <textarea name="textarea"></textarea>
+            </div>
+            
+             <div class="form-row">
+                <label>
+                    <span>
+                    Pais</span>
+                    <select name="dropdown">
+                        <option>Alemania</option>
+                        <option>USA</option>
+                        <option>Argentina</option>
+                        <option selected>México</option>
+                    </select>
+                </label>
+            </div>
+
+           <!-- <div class="form-row">
+                <label>
+                    <span>Checkbox</span>
+                    <input type="checkbox" name="checkbox" checked>
+                </label>
+            </div>-->
+
+            <div class="form-row">
+                <label><span>Género</span></label>
+                <div class="form-radio-buttons">
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Sin especificar</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Mujer</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Hombre</span>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+            
+             <div class="form-row">
+                <label>
+                    <span>
+                    Pregunta seguridad</span>
+                    <select name="dropdown2">
+                        <option>¿I love I love oat cake tootsie roll?</option>
+                        <option>¿Caramels cake tootsie roll jelly beans cake?</option>
+                        <option>¿Donut halvah jelly-o?</option>
+                        <option selected>¿Candy canes apple pie oat cake I love cake?</option>
+                    </select>
+                    <br/><br>
+                </label>
+              <div class="form-row">
+                <label>
+                <span>Respuesta</span></label>
+              <textarea name="respuesta-seg"></textarea>
+            </div>
+            </div>
+
+            
+            <div class="form-row">
+            			<label>
+                        	<span>Imagen Perfil</span> 
+           					<input name="archivo" type="file" size="20">
+                        </label>
+             </div>
+             <div class="form-row">
+            			<label>
+                        	<span>Imagen Portada</span> 
+           					<input name="archivo2" type="file" size="20">
+                        </label>
+             </div>
+
+            <div>
+                <button type="submit">Enviar</button> <button type="reset">Cancelar</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
